@@ -1,0 +1,31 @@
+uuid: 36e70aea-389c-4ea4-80a8-482bd7cccce3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+id: paragraph.field_image
+field_name: field_image
+entity_type: paragraph
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: b69415f3-ab96-4930-a390-66b0cbfc63fb
+    alt: banière
+    title: banière
+    width: 612
+    height: 639
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
+

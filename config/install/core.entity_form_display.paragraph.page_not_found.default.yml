@@ -1,0 +1,55 @@
+uuid: ba427436-703a-43de-9db7-b661c0ef8c34
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_not_found.field_cta
+    - field.field.paragraph.page_not_found.field_image
+    - field.field.paragraph.page_not_found.field_lien
+    - field.field.paragraph.page_not_found.field_titre
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.page_not_found
+  module:
+    - image
+    - link
+id: paragraph.page_not_found.default
+targetEntityType: paragraph
+bundle: page_not_found
+mode: default
+content:
+  field_cta:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_lien:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_titre:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+

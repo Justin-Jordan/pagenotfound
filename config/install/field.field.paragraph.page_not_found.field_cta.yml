@@ -1,0 +1,29 @@
+uuid: 735dbeda-57ce-42e7-91b6-c8ed33a7f5dd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta
+    - paragraphs.paragraphs_type.page_not_found
+  module:
+    - link
+id: paragraph.page_not_found.field_cta
+field_name: field_cta
+entity_type: paragraph
+bundle: page_not_found
+label: 'bakck to home'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:#'
+    title: 'Retourner à l''accueil'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
+
