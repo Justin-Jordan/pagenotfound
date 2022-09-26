@@ -1,6 +1,8 @@
 {
     "name": "justinonomo/pagenotfound",
     "description": "a packaget to import page not found paragraph",
+    "type": "drupal-custom-module",
+    "license": "MIT",
     "authors": [
         {
             "name": "justin",
