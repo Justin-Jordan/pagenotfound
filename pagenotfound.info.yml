@@ -1,0 +1,5 @@
+name: pagenotfound
+type: module
+description: A module to import page not found paragraph
+package: Custom
+core_version_requirement: ^9 || ^10
