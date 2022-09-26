@@ -1,0 +1,11 @@
+{
+    "name": "justinonomo/pagenotfound",
+    "description": "a packaget to import page not found paragraph",
+    "authors": [
+        {
+            "name": "justin",
+            "email": "justinonomo@gmail.com"
+        }
+    ],
+    "require": {}
+}
